@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "sourceMap": true,
+    "typeRoots": [
+      "./typings",
+      "../node_modules/@types"
+    ],
+    "types": [
+      "cypress"
+    ]
+  },
+  "include": ["cypress/**/*.ts", "cypress/support/dom-element/drop-downts", "cypress/plugins/indexNOTWORK", "cypress/support/action/mongo-db-actions.js"]
+}

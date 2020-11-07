@@ -1,0 +1,73 @@
+[
+  {
+    "description": "  As a customer I want to buy Dry Martini by different bottle sizes",
+    "keyword": "Feature",
+    "name": "Dry Martini Product Layouts",
+    "line": 1,
+    "id": "dry-martini-product-layouts",
+    "tags": [],
+    "uri": "dry-martini-product-layouts.feature",
+    "elements": [
+      {
+        "id": "dry-martini-product-layouts;verify-dry-martini-product-layouts-webpage",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify dry martini product layouts webpage",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on home page \"https://snipcart-react-gatsby.netlify.app/\"",
+            "result": {
+              "status": "passed",
+              "duration": 388000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I select the product \"Dry Martini\"",
+            "result": {
+              "status": "passed",
+              "duration": 317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see the drop down options for size",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see the \"Buy for\" button is visible",
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I see the \"Buy for\" button color is black",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

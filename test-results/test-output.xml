@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.508" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-11-07T14:43:43" tests="0" file="cypress\integration\my-cart.feature" failures="0" time="0">
+  </testsuite>
+  <testsuite name="My Cart" timestamp="2020-11-07T14:43:43" tests="1" failures="0" time="15.508">
+    <testcase name="My Cart Check out Dry Martini from shopping basket" time="15.508" classname="Check out Dry Martini from shopping basket">
+    </testcase>
+  </testsuite>
+</testsuites>

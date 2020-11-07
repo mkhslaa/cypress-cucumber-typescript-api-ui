@@ -1,0 +1,18 @@
+{
+  "defalutTimeout": 10000,
+  "pageLoadTimeout": 40000,
+  "defaultCommandTimeout": 60000,
+  "requestTimeout": 150000,
+  "responseTimeout": 150000,
+  "testFiles": "**/*.feature",
+  "ignoreTestFiles": [
+    "*.js",
+    "*.md"
+  ],
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "test-results/test-output.xml"
+  },
+  "chromeWebSecurity": false,
+  "supportFile": "cypress/support/index.js"
+}

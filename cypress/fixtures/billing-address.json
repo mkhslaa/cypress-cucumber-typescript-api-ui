@@ -1,0 +1,13 @@
+{
+    "name": "John Scott",
+    "company": "xyz",
+    "address1": "22 Derby Road",
+    "address2": "Bassett",
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "state": "Hampshire",
+    "postcode": "SO16XX",
+    "phone": "999999999",
+    "email": "john@example.com",
+    "same-shipping-address": "Y"
+}

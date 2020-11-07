@@ -1,0 +1,44 @@
+{
+  "name": "cypress-cucumber-typescript-api-ui-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "cy:open": "cypress open",
+    "pretest": "node ./cypress/reporting/delete-results.js",
+    "report": "node ./cypress/reporting/report.js",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "typescript",
+    "api",
+    "ui"
+  ],
+  "author": "Manjeet Khalsa",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/test-results/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "dependencies": {
+    "@types/faker": "^4.1.12",
+    "cypress": "^5.3.0",
+    "cypress-cucumber-preprocessor": "^3.0.0",
+    "tsify": "^4.0.1",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.0",
+    "@cypress/browserify-preprocessor": "^2.1.1",
+    "@types/cypress-cucumber-preprocessor": "^1.14.1",
+    "chai-subset": "^1.6.0",
+    "multiple-cucumber-html-reporter": "1.18.0"
+  }
+}
