@@ -1,7 +1,7 @@
 # cypress-cucumber-typescript-api-ui-testing
-Automate using Cypress Cucumber Typescript 
-Automate http://ratesapi.io/documentation/ api tests
-Automate https://snipcart-react-gatsby.netlify.app/ e2e tests
+
+http://ratesapi.io/documentation/ api tests
+https://snipcart-react-gatsby.netlify.app/ e2e tests
 
 Cypress, latest testing Framework has been used along with Cucumber and TypeScript
 
